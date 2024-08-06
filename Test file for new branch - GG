@@ -1,0 +1,5 @@
+const element = document.getElementById('yourElementId');
+
+if (element.innerHTML.trim() === '') {
+    element.style.display = 'none';
+}
